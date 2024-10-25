@@ -4,7 +4,7 @@ Our organization recently adopted RsPack for a large web development project.
 
 So far the experience building with it has been remarkable. Everything our project needs is thoughtfully baked into RsPack and is exposed behind simple, familiar APIs.
 
-Overall, it has brought me so much joy to work with the RsPack. Let's dive into some specific reasons why:
+Overall, it has brought me so much joy to work with RsPack. Let's dive into some specific reasons why:
 
 ## Fully Typed
 
