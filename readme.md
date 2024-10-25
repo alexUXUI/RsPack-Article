@@ -8,7 +8,7 @@ Overall, it has brought me so much joy to work with the RsPack. Let's dive into 
 
 ## Fully Typed
 
-Every part of RsPacks API is described in simple, high-quality typescript types that makes navigating the RsPacks configuration options a breeze.
+RsPacks API is described in simple, high-quality typescript types that make navigating RsPacks configuration options a breeze.
 
 ![typed-api](./assets/typed-api-example.gif)
 
@@ -16,9 +16,9 @@ Every part of RsPacks API is described in simple, high-quality typescript types 
 
 It’s no secret that Webpack's API - the bundler API Rspack implements - is big.
 
-In fact, RsPacks API is so breath-takingly feature-rich that it could implement the functionality of any bundler on the market including Vite, Esbuild, and Webpack.
+In fact, RsPack's API is so breath-takingly feature-rich that it could implement the functionality of any bundler on the market including Vite, Esbuild, and Webpack.
 
-As a result, I don’t find myself having to write custom tooling on top of RsPack. There’s always some way to accomplish our Bundling or development server goals directly through the tool, without reaching for anything else.
+As a result, I don’t find myself having to write custom tooling on top of RsPack. There’s always some way to accomplish our bundling or development server goals directly through the tool, without reaching for anything else.
 
 ## Ecosystem
 
@@ -38,8 +38,6 @@ Rspack ecosystem also includes tools like [RsDoctor](https://rsdoctor.dev/), a b
 
 RsBuild also offers file and plugin-level resolution, and a beautiful, interactive UI. Yet another thing I have not found in my experience with other tools.
 
-![rsdoctor-example-loader-and-files](https://lf3-static.bytednsdoc.com/obj/eden-cn/lognuvj/rsdoctor/docs/usage/compile/loader-timeline-overall.png)
-
 ### RsLib
 
 ![rs-lib-example](https://assets.rspack.dev/rsbuild/assets/rspack-stack-layers.png)
@@ -48,19 +46,19 @@ RsLib reprsents a big step forward in RsPack's ability to handle a wide variety 
 
 ## Developer Experience
 
-Between the detailed documentation, fast refresh of all project files, thoughtful defaults, helpful errors, and information dense messages, the immediate developer experience comes with all the trappings I would expect from any great tool, in any part of the industry. 
+It's a broad category, but, between the detailed documentation, thoughtful defaults, helpful errors, and information dense messages, the immediate developer experience comes with all the trappings I would expect from any great tool, in any part of the industry. 
 
 For example: for those familiar with the Rust development experience in terms of compiler feedback, I find many similarities in the RsPack experience.
 
 ## Development Server
 
-RsPack's development server provides more than just a fast, iterative development experience with HMR. 
+RsPack's development server provides more than just a fast, iterative development experience with HMR and fast refresh of all project config files including the RsPack config file, tsconfig, and more.
 
-It also supports our real-world business needs for use cases like integration with backend services, and provides a way to proxy requests to our backend services, as well as out of the box support for HTTPS and SSL certificates. 
+RsPack's development also supports our real-world business needs for use cases like integration with backend services, and provides a way to proxy requests to our backend services, as well as out of the box support for HTTPS and SSL certificate management. 
 
-On top of that, the development server does not require its own express-like server or middleware for proxying, as it is already baked into the tool. Which, by now, you're hopefully thinking "of course it is, duh".
+On top of that, the development server does not require its own express-like server or middleware for proxying, as it is already baked into the tool. Which, by now, you're hopefully thinking "of course it is, duh!".
 
-## Worlds most advanced support for Module Federation.
+## World's most advanced support for Module Federation
 
 Federation, which allows for both the sharing of code between applications at runtime *and* the runtime management of these shared modules, is a capability that is deeply engrained in RsPack's design. 
 
