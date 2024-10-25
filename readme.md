@@ -32,6 +32,8 @@ RsBuild offers starter templates for react, lit, vue, solid and more. It also co
 
 Rspack ecosystem also includes tools like [RsDoctor](https://rsdoctor.dev/), a bundle analyzer: 
 
+### RsDoctor
+
 ![rsdoctor-example](https://lf3-static.bytednsdoc.com/obj/eden-cn/lognuvj/rsdoctor/docs/start/overall.jpg)
 
 RsDoctor is the most advanced bundle analyzer on the market, offering file and plugin-level resolution, and a beautiful, interactive UI.
