@@ -30,13 +30,13 @@ RsBuild is a CLI tool for generating starter templates for react, lit, vue, soli
 
 ![rsbuild-example](./assets/rsbuild-example.gif)
 
-Rspack ecosystem also includes tools like [RsDoctor](https://rsdoctor.dev/), a bundle analyzer: 
-
 ### RsDoctor
+
+Rspack ecosystem also includes tools like [RsDoctor](https://rsdoctor.dev/), a bundle analyzer: 
 
 ![rsdoctor-example](https://lf3-static.bytednsdoc.com/obj/eden-cn/lognuvj/rsdoctor/docs/start/overall.jpg)
 
-RsBuild also offers file and plugin-level resolution, and a beautiful, interactive UI. Yet another thing I have not found in my experience with other tools.
+RsDoctor also offers file and plugin-level resolution, and a beautiful, interactive UI. Yet another thing I have not found in my experience with other tools.
 
 ### RsLib
 
