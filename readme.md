@@ -22,11 +22,11 @@ As a result, I don’t find myself having to write custom tooling on top of RsPa
 
 ## Ecosystem
 
-RsPack is part of a large tooling ecosystem that includes things like RsBuild, a CLI for scaffolding apps. And, most recently, [RsLib](https://lib.rsbuild.dev/guide/start/index), a library bundler. 
+RsPack is part of a large tooling ecosystem that includes things like RsBuild, RsDoctor, and RsLib.
 
 ### RsBuild 
 
-RsBuild offers starter templates for react, lit, vue, solid and more. It also configures the js tooling with options like TS, Prettier, Biome, and Eslint.
+RsBuild is a CLI tool for generating starter templates for react, lit, vue, solid and more. It also configures the js tooling with options like TS, Prettier, Biome, and Eslint. It is a fantastic way to get up and going with RsPack in a fully magaged way. Much like a Vite or Create React App, but with RsPack.
 
 ![rsbuild-example](./assets/rsbuild-example.gif)
 
@@ -36,7 +36,7 @@ Rspack ecosystem also includes tools like [RsDoctor](https://rsdoctor.dev/), a b
 
 ![rsdoctor-example](https://lf3-static.bytednsdoc.com/obj/eden-cn/lognuvj/rsdoctor/docs/start/overall.jpg)
 
-RsDoctor is the most advanced bundle analyzer on the market, offering file and plugin-level resolution, and a beautiful, interactive UI.
+RsBuild also offers file and plugin-level resolution, and a beautiful, interactive UI. Yet another thing I have not found in my experience with other tools.
 
 ![rsdoctor-example-loader-and-files](https://lf3-static.bytednsdoc.com/obj/eden-cn/lognuvj/rsdoctor/docs/usage/compile/loader-timeline-overall.png)
 
